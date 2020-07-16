@@ -36,12 +36,12 @@ export default class LeftMenu extends Component {
                 <Menu.Item key="1">
                     <Link to='/one'>
                         {/* <Icon type={item.icon}/> */}
-                        <span>Option 1</span>
+                        <span>路由传参</span>
                     </Link>
                 </Menu.Item>
                 <Menu.Item key="2">
                     <Link to='/two'>
-                        <span>Option 2</span>
+                        <span>组件通信</span>
                     </Link>
                 </Menu.Item>
               </Menu.ItemGroup>

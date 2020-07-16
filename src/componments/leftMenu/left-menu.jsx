@@ -18,7 +18,7 @@ export default class LeftMenu extends Component {
         return (
             <Menu
             onClick={this.handleClick}
-            style={{ width: 256 }}
+            style={{ width: 256,backgroundColor:'#f1f1f1' }}
             defaultSelectedKeys={['1']}
             defaultOpenKeys={['sub1']}
             mode="inline"

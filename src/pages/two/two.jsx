@@ -68,7 +68,7 @@ export default class Two extends Component {
                 <PriceContext.Provider value={price}>
                     <button onClick={this.clickGoods.bind(this, 100)}>goods1</button>
                     <button onClick={this.clickGoods.bind(this, 1000)}>goods2</button>
-                    <TwoSonTwo></TwoSonTwo>
+                    {/* <TwoSonTwo></TwoSonTwo> */}
                 </PriceContext.Provider>  
 
 
